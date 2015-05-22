@@ -1,0 +1,20 @@
+/.bundle
+
+# Ignore the default SQLite database.
+/db/schema.rb
+/db/*.sqlite3
+/db/*/*.sqlite3
+
+/config/config.yml
+/config/database.yml
+/config/secrets.yml
+
+# Ignore all logfiles and tempfiles.
+/log/*
+!/log/.keep
+/tmp
+
+*.DS_Store
+/.idea/*
+*.keep
+
